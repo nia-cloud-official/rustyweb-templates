@@ -11,6 +11,7 @@ This is the starter template for RustyWeb apps.
   cargo run
   ```
 Build the app with:
-    ```bash
+    
+```bash
 cargo build --release
 ```
