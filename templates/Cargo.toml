@@ -1,0 +1,11 @@
+[package]
+name = "myapp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustyweb-core = { git = "https://github.com/nia-cloud-official/rustyweb-core.git" }
+tokio = { version = "1", features = ["full"] }
+axum = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+
